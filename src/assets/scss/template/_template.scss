@@ -1,130 +1,30 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+body {
+  background: $body-background;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
-
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
-  background: transparent;
-}
-
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-  margin: 0 auto;
-}
-html,body
-{
-  overflow-x: hidden;
-  
-}
-
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+h1 {
   font-weight: bold;
-  font-size: 46px;
   line-height: 56px;
   text-align: center;
-  color: #E1E7ED;
+  color: #e1e7ed;
 }
-h2{
-  font-family: Montserrat;
-  font-style: normal;
+h2 {
   font-weight: 800;
-  font-size: 20px;
   line-height: 24px;
 
   /* Font Color */
 
-  color: #B9BCC1;
+  color: #b9bcc1;
 }
-h3{
-  font-family: Montserrat;
-  font-style: normal;
+h3 {
   font-weight: normal;
   font-size: 36px;
   line-height: 44px;
   display: flex;
   align-items: center;
 }
-p{
-  font-family: Montserrat;
-  font-style: normal;
+p {
   font-weight: 500;
-  font-size: 20px;
   line-height: 125%;
   /* or 25px */
 
@@ -134,44 +34,42 @@ p{
 
   /* Font Color */
 
-  color: #B9BCC1;
+  color: #b9bcc1;
 }
 
-.small{
+.small {
   /* Small */
 
-  font-family: Montserrat;
-  font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
 
   /* Font Color */
 
-  color: #B9BCC1;
+  color: #b9bcc1;
 }
-.main-container{
+.main-container {
   width: 680px;
   height: 2350px;
-  background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%), linear-gradient(140.33deg, #141527 9.01%, #3A3B5E 94.56%);
+  background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%),
+    linear-gradient(140.33deg, #141527 9.01%, #3a3b5e 94.56%);
 }
-.container{
+.container {
   margin: 0 64px;
-  
 }
-.booking-info{
+.booking-info {
   display: flex;
   flex-direction: column;
   width: 680px;
   height: 870px;
-  background: #191C21;
+  background: #191c21;
 }
-.top-image{
+.top-image {
   margin: 0 -64px;
   width: 680px;
   height: 272px;
 }
-#top-img{
+.hero-image {
   position: relative;
   margin: 0;
   width: 680px;
@@ -181,97 +79,96 @@ p{
   background: linear-gradient(360deg, rgba(25, 28, 33, 0.8) 0%, rgba(25, 28, 33, 0) 100%);
   padding: 0px;
   border: none;
-  
 }
-.accom-name{
+.accom-name {
   position: relative;
   text-align: center;
   bottom: 25%;
 }
 
-.al-1{
+.al-1 {
   display: flex;
 }
 
-.al-2{
+.al-2 {
   text-align: left;
 }
 
-.icon{
+.icon {
   margin: 0;
   width: 24px;
   height: 24px;
 }
-.icon2{
+.icon2 {
   margin: 5;
   width: 16px;
   height: 16px;
 }
 
-.icon3{
+.icon3 {
   margin: 5px 5px 5px 20px;
   height: 10.92px;
   right: 15.11px;
 }
 
-.mg-1{
+.mg-1 {
   margin: 0 24px;
 }
 
-.mg-2{
+.mg-2 {
   margin: 24px 0;
 }
 
-.br-line{
-  border: 1px solid #B9BCC1;
+.br-line {
+  border: 1px solid #b9bcc1;
 }
 
-.mg-3{
+.mg-3 {
   margin: 0;
 }
 
-.mg-4{
+.mg-4 {
   margin: 0 0 0 auto;
 }
 
-.mg-5{
+.mg-5 {
   margin: 4px 0;
 }
 
-.mg-6{
+.mg-6 {
   margin: 32px 0 0 0;
 }
 
-.mg-7{
+.mg-7 {
   margin: 16px 0 4px 0;
 }
 
-.mg-8{
+.mg-8 {
   margin: 48px 0 16px 0;
 }
 
-.mg-9{
+.mg-9 {
   margin: 8px 0;
 }
 
-.mg-10{
+.mg-10 {
   margin: 0 0 16px 0;
 }
 
-.mg-11{
+.mg-11 {
   margin: 16px 0 32px 0;
 }
 
-.magenta{
-  color: #E5B5CE;
+.magenta {
+  color: #e5b5ce;
 }
 
-a{
-  text-decoration: underline #B9BCC1;
+a {
+  text-decoration: underline #b9bcc1;
 }
 
-.button{
-  background-color: #4CAF50; /* Green */
+.button {
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   text-align: center;
@@ -282,11 +179,11 @@ a{
   cursor: pointer;
 }
 
-.button1{
+.button1 {
   padding-left: 37px;
   width: 256px;
   height: 66px;
-  background-color: transparent; 
-  color: black; 
-  border: 2px solid #B9BCC1;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #b9bcc1;
 }
