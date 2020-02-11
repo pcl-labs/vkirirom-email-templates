@@ -2,188 +2,152 @@ body {
   background: $body-background;
 }
 
+p {
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 20px;
+
+}
 h1 {
   font-weight: bold;
   line-height: 56px;
-  text-align: center;
-  color: #e1e7ed;
+  line-height: 1;
 }
 h2 {
   font-weight: 800;
-  line-height: 24px;
-
-  /* Font Color */
-
-  color: #b9bcc1;
+  line-height: 1.25;
 }
 h3 {
   font-weight: normal;
   font-size: 36px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-}
-p {
-  font-weight: 500;
-  line-height: 125%;
-  /* or 25px */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-
-  /* Font Color */
-
-  color: #b9bcc1;
+  line-height: 1.25;
 }
 
-.small {
-  /* Small */
-
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-
-  /* Font Color */
-
-  color: #b9bcc1;
-}
 .main-container {
-  width: 680px;
+  width: 580px;
   height: 2350px;
   background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%),
     linear-gradient(140.33deg, #141527 9.01%, #3a3b5e 94.56%);
 }
-.container {
-  margin: 0 64px;
-}
-.booking-info {
-  display: flex;
-  flex-direction: column;
-  width: 680px;
-  height: 870px;
-  background: #191c21;
-}
-.top-image {
-  margin: 0 -64px;
-  width: 680px;
-  height: 272px;
-}
-.hero-image {
-  position: relative;
-  margin: 0;
-  width: 680px;
-  height: 272px;
-  left: 0px;
-  top: 0px;
-  background: linear-gradient(360deg, rgba(25, 28, 33, 0.8) 0%, rgba(25, 28, 33, 0) 100%);
-  padding: 0px;
-  border: none;
-}
-.accom-name {
-  position: relative;
-  text-align: center;
-  bottom: 25%;
-}
+// .booking-info {
+//   display: flex;
+//   flex-direction: column;
+//   width: 580px;
+//   height: 870px;
+//   background: #191c21;
+// }
+// .top-image {
+//   margin: 0 -64px;
+//   width: 580px;
+//   height: 272px;
+// }
+// .hero-image {
+//   position: relative;
+//   margin: 0;
+//   width: 580px;
+//   height: 272px;
+//   left: 0px;
+//   top: 0px;
+//   background: linear-gradient(360deg, rgba(25, 28, 33, 0.8) 0%, rgba(25, 28, 33, 0) 100%);
+//   padding: 0px;
+//   border: none;
+// }
+// .accom-name {
+//   position: relative;
+//   text-align: center;
+//   bottom: 25%;
+// }
 
-.al-1 {
-  display: flex;
-}
+// .icon {
+//   margin: 0;
+//   width: 24px;
+//   height: 24px;
+// }
+// .icon2 {
+//   margin: 5;
+//   width: 16px;
+//   height: 16px;
+// }
 
-.al-2 {
-  text-align: left;
-}
+// .icon3 {
+//   margin: 5px 5px 5px 20px;
+//   height: 10.92px;
+//   right: 15.11px;
+// }
 
-.icon {
-  margin: 0;
-  width: 24px;
-  height: 24px;
-}
-.icon2 {
-  margin: 5;
-  width: 16px;
-  height: 16px;
-}
+// .mg-1 {
+//   margin: 0 24px;
+// }
 
-.icon3 {
-  margin: 5px 5px 5px 20px;
-  height: 10.92px;
-  right: 15.11px;
-}
+// .mg-2 {
+//   margin: 24px 0;
+// }
 
-.mg-1 {
-  margin: 0 24px;
-}
+// .br-line {
+//   border: 1px solid #b9bcc1;
+// }
 
-.mg-2 {
-  margin: 24px 0;
-}
+// .mg-3 {
+//   margin: 0;
+// }
 
-.br-line {
-  border: 1px solid #b9bcc1;
-}
+// .mg-4 {
+//   margin: 0 0 0 auto;
+// }
 
-.mg-3 {
-  margin: 0;
-}
+// .mg-5 {
+//   margin: 4px 0;
+// }
 
-.mg-4 {
-  margin: 0 0 0 auto;
-}
+// .mg-6 {
+//   margin: 32px 0 0 0;
+// }
 
-.mg-5 {
-  margin: 4px 0;
-}
+// .mg-7 {
+//   margin: 16px 0 4px 0;
+// }
 
-.mg-6 {
-  margin: 32px 0 0 0;
-}
+// .mg-8 {
+//   margin: 48px 0 16px 0;
+// }
 
-.mg-7 {
-  margin: 16px 0 4px 0;
-}
+// .mg-9 {
+//   margin: 8px 0;
+// }
 
-.mg-8 {
-  margin: 48px 0 16px 0;
-}
+// .mg-10 {
+//   margin: 0 0 16px 0;
+// }
 
-.mg-9 {
-  margin: 8px 0;
-}
+// .mg-11 {
+//   margin: 16px 0 32px 0;
+// }
 
-.mg-10 {
-  margin: 0 0 16px 0;
-}
+// .magenta {
+//   color: #e5b5ce;
+// }
 
-.mg-11 {
-  margin: 16px 0 32px 0;
-}
+// a {
+//   text-decoration: underline #b9bcc1;
+// }
 
-.magenta {
-  color: #e5b5ce;
-}
+// .button {
+//   background-color: #4caf50; /* Green */
+//   border: none;
+//   color: white;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
+//   margin: 4px 2px;
+//   cursor: pointer;
+// }
 
-a {
-  text-decoration: underline #b9bcc1;
-}
-
-.button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {
-  padding-left: 37px;
-  width: 256px;
-  height: 66px;
-  background-color: transparent;
-  color: black;
-  border: 2px solid #b9bcc1;
-}
+// .button1 {
+//   padding-left: 37px;
+//   width: 256px;
+//   height: 66px;
+//   background-color: transparent;
+//   color: black;
+//   border: 2px solid #b9bcc1;
+// }
