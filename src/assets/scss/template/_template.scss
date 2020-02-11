@@ -2,7 +2,9 @@ body {
   background: $body-background;
 }
 
-p {
+p,
+span,
+a {
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 20px;
@@ -20,11 +22,17 @@ h1 {
 }
 h2 {
   font-weight: 800;
+  font-size: 36px;
   line-height: 1.25;
 }
 h3 {
   font-weight: normal;
   font-size: 36px;
+  line-height: 1.25;
+}
+h4 {
+  font-weight: normal;
+  font-size: 20px;
   line-height: 1.25;
 }
 hr {
@@ -34,8 +42,26 @@ hr {
   border-top: none;
 }
 
-th, td {
+th,
+td {
   vertical-align: middle;
+}
+
+.text-underline {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+
+.button-outlined {
+  border: 1px solid $light;
+  padding: map-get($button-padding, "large");
+  border-radius: $button-radius;
+  color: $light;
+  font-size: 20px;
+  line-height: 1.2;
+  &:hover {
+    color: $light;
+  }
 }
 
 .main-container {
@@ -57,7 +83,21 @@ th, td {
 
 .brand-background {
   background: #141527;
-  background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%), linear-gradient(166deg, #141527 9%, #3a3b5e 95%)
+  background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%),
+    linear-gradient(166deg, #141527 9%, #3a3b5e 95%);
+}
+
+.resort-content {
+  h2 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  p {
+    line-height: 1.25;
+  }
 }
 
 // .booking-info {
