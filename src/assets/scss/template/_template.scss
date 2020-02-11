@@ -6,7 +6,12 @@ p {
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 20px;
-
+  font-weight: 500;
+}
+small {
+  font-weight: 300;
+  line-height: 1.143;
+  font-size: 14px;
 }
 h1 {
   font-weight: bold;
@@ -22,6 +27,16 @@ h3 {
   font-size: 36px;
   line-height: 1.25;
 }
+hr {
+  border-color: $light;
+  border-width: 1px;
+  margin: 0;
+  border-top: none;
+}
+
+th, td {
+  vertical-align: middle;
+}
 
 .main-container {
   width: 580px;
@@ -29,6 +44,22 @@ h3 {
   background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%),
     linear-gradient(140.33deg, #141527 9.01%, #3a3b5e 94.56%);
 }
+
+.vertical-align-middle-childs {
+  * {
+    vertical-align: middle;
+  }
+}
+
+.font-weight-semibold {
+  font-weight: 800;
+}
+
+.brand-background {
+  background: #141527;
+  background: linear-gradient(180deg, #010101 0%, rgba(20, 21, 39, 0) 100%), linear-gradient(166deg, #141527 9%, #3a3b5e 95%)
+}
+
 // .booking-info {
 //   display: flex;
 //   flex-direction: column;
